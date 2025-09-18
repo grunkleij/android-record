@@ -4,22 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notification Demo"
+        android:text="Welcome to the App!"
         android:textSize="24sp"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/showNotificationButton"/>
-
-    <Button
-        android:id="@+id/showNotificationButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Notification"
+        android:textColor="@android:color/white"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>
